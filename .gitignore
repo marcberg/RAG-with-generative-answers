@@ -1,0 +1,13 @@
+# Ignore all files in folders a, b, and c
+fine_tuned_model/*
+llm_models/*
+metadata/*
+saved_embeddings/*
+
+# Do not ignore the folders themselves
+!afine_tuned_model/
+!llm_models/
+!metadata/
+!saved_embeddings/
+
+*.ipynb
